@@ -119,6 +119,16 @@ a:active {
   text-decoration: none;
 }
 
+/* MAIN SECTION 3: COLLECTING INFO */
+.collect-info h1 {
+  font-size: 4em;
+}
+
+.collect-info p {
+  font-size: 1.4em;
+  color: rgb(134, 148, 172);
+}
+
 /* footer {
 
 } */
