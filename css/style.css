@@ -20,6 +20,13 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+:root {
+  --font: "Roboto", Arial, Helvetica, sans-serif;
+  --main-grey: rgb(223, 232, 238);
+  --main-lightgrey: rgb(245, 249, 252);
+  --main-darkgrey: rgb(49, 70, 88);
+  --main-white: rgb(255, 255, 255);
+}
 
 body {
   font-family: 'Lato', sans-serif;
@@ -32,17 +39,36 @@ body {
 
 /* HEADER */
 header {
-  color: darkblue;
+  color: var(--main-darkgrey);
 }
 
 .hamburger {
   float: left;
+  font-size: 2em;
+  color: var(--main-darkgrey);
 }
 
-h1 {
+header h1 {
   text-align: center;
 }
 
+/* BODY 1: MAIN CONTENT */
+img {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  background-color: var(--main-darkgrey);
+  color: white;
+  font-weight: bold;
+}
+
+.main h1 {
+  font-weight: bold;
+  font-size: 3em;
+  color: var(--main-darkgrey);
+}
 /* footer {
 
 } */
