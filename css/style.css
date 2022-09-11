@@ -58,16 +58,31 @@ img {
   height: 100%;
 }
 
+input {
+  background-color: var(--main-grey);
+  width: 90%;
+  margin: 1em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
+}
+
 button {
   background-color: var(--main-darkgrey);
   color: white;
   font-weight: bold;
+  width: 90%;
+  margin: 1em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
 }
 
 .main h1 {
   font-weight: bold;
   font-size: 3em;
   color: var(--main-darkgrey);
+}
+
+p {
+  font-size: 1.25em;
+  margin: 1em 1em 1em 1em;
 }
 /* footer {
 
