@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/Operaismo/Source/compare/v1.0.0...v1.0.1) (2022-09-11)
+
+
+### Features
+
+* adapted styling for Mobile First development ([6f52d0f](https://github.com/Operaismo/Source/commits/6f52d0fe7548ec8040078efb2293e3dbdc52de52))
+
+
+### Bug Fixes
+
+* fixed a bug where the button and input's margin would be cut off at the end ([6ccfccd](https://github.com/Operaismo/Source/commits/6ccfccdb879db5644461d678329d751477b01970))
+* fixed a bug where the features were clumped too close together ([781fc34](https://github.com/Operaismo/Source/commits/781fc34dd790a6998b32bcc5bcb24bdcc78fbda2))
+
 ## 1.0.0 (2022-09-11)
 
 
