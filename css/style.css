@@ -30,6 +30,13 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  color: var(--main-darkgrey)
+}
+
+header, .main {
+  width: 100%;
+  background-color: var(--main-lightgrey);
+  overflow: hidden;
 }
 
 
@@ -80,10 +87,29 @@ button {
   color: var(--main-darkgrey);
 }
 
-p {
+.main p {
   font-size: 1.25em;
   margin: 1em 1em 1em 1em;
 }
+
+/* MAIN SECTION 2: FEATURES */
+
+.features {
+  text-align: center;
+}
+
+.features a {
+  color: var(--main-darkgrey);
+  font-weight: bold;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
 /* footer {
 
 } */
@@ -91,7 +117,6 @@ p {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
 .hr-divider {
   display: none;
 }
