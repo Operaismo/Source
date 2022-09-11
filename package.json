@@ -1,6 +1,10 @@
 {
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "name": "source",
   "version": "1.0.0",
@@ -18,6 +22,7 @@
   "homepage": "https://github.com/Operaismo/Source#readme",
   "description": "",
   "devDependencies": {
-    "husky": "^8.0.1"
+    "husky": "^8.0.1",
+    "standard-version": "^9.5.0"
   }
 }
