@@ -61,7 +61,7 @@ header {
 
 .hamburger {
   float: left;
-  padding-left: 25px;
+  padding-left: 10px;
   font-size: 2em;
   color: var(--main-darkgrey);
 }
@@ -142,6 +142,18 @@ button {
 .main p {
   font-size: 1.25em;
   margin: 1em 1em 1em 1em;
+}
+
+@media (min-width: 1024px) and (max-width: 2560px) {
+  .main-tagline {
+    width: 50%;
+    float: left;
+    padding: 10%;
+  }
+  .main-img {
+    width: 50%;
+    float: right;
+  }
 }
 
 /* MAIN SECTION 2: FEATURES */
