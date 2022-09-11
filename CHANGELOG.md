@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/Operaismo/Source/compare/v1.0.1...v1.0.2) (2022-09-11)
+
+
+### Features
+
+* mobile first MVP ([0b38177](https://github.com/Operaismo/Source/commits/0b3817784727d4b4d6e6183e5ee2a9b25deef636))
+* split main content into columns of 50% width each ([afb6054](https://github.com/Operaismo/Source/commits/afb6054748e7a50026b44e7d822d219312485ca5))
+* successfully got input and button on the same line ([e3255e6](https://github.com/Operaismo/Source/commits/e3255e62d388a623595fefd91210248896fa3e2d))
+
+
+### Bug Fixes
+
+* modified desktop specs to include links ([e9ad802](https://github.com/Operaismo/Source/commits/e9ad802cdd8c5b78749d2354a51e4c5a48f6b40a))
+
 ### [1.0.1](https://github.com/Operaismo/Source/compare/v1.0.0...v1.0.1) (2022-09-11)
 
 
