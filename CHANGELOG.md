@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/Operaismo/Source/compare/v1.0.2...v1.1.0) (2022-09-11)
+
+
+### Features
+
+* source responsiveness MVP ([5a1c61d](https://github.com/Operaismo/Source/commits/5a1c61d3351f244599fc6aa79978d790faa17465))
+
+
+### Bug Fixes
+
+* fixed alignment in desktop media query ([a54d940](https://github.com/Operaismo/Source/commits/a54d940ff38120715a99e5af28654dd321594866))
+
 ### [1.0.2](https://github.com/Operaismo/Source/compare/v1.0.1...v1.0.2) (2022-09-11)
 
 
