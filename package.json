@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "name": "source",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Operaismo/Source.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Operaismo/Source/issues"
+  },
+  "homepage": "https://github.com/Operaismo/Source#readme",
+  "description": "",
+  "devDependencies": {
+    "husky": "^8.0.1"
+  }
+}
