@@ -29,13 +29,23 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+/* HEADER */
 header {
-
+  color: darkblue;
 }
 
-footer {
-
+.hamburger {
+  float: left;
 }
+
+h1 {
+  text-align: center;
+}
+
+/* footer {
+
+} */
 
 /******************************************
 /* ADDITIONAL STYLES
