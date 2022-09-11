@@ -135,7 +135,7 @@ button {
 
 .main h1 {
   font-weight: bold;
-  font-size: 3em;
+  font-size: 2em;
   color: var(--main-darkgrey);
 }
 
@@ -148,23 +148,30 @@ button {
   .main-tagline {
     width: 50%;
     float: left;
-    padding: 10%;
+    padding: 5%;
   }
 
   .user-input input {
-    width: 80%;
+    width: 75%;
     float: left;
-    padding: 0 0 0 0;
+    padding: .5em .5em .5em .5em;
     margin: 0 0 0 0;
   }
   .user-input button {
-    width: 20%;
-    padding: 0 0 0 0;
+    width: 25%;
+    padding: .5em .5em .5em .5em;
     margin: 0 0 0 0;
   }
   .main-img {
     width: 50%;
     float: right;
+    padding-top: 5%;
+  }
+
+  .main-img img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -185,8 +192,11 @@ button {
 }
 
 /* MAIN SECTION 3: COLLECTING INFO */
+.collect-info h1, .collect-info p {
+  width: 50%;
+}
 .collect-info h1 {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .collect-info p {
@@ -199,7 +209,7 @@ button {
     width: 25%;
     float: left;
     text-align: left;
-    padding: 1.5em 0 1.5em 0em;
+    padding: 0 0 3em 0em;
     margin: 0 0 0 0;
   }
 }
