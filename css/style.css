@@ -39,6 +39,16 @@ header, .main, .features {
   overflow: hidden;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
 
 /******************************************
 /* LAYOUT
@@ -51,12 +61,50 @@ header {
 
 .hamburger {
   float: left;
+  padding-left: 25px;
   font-size: 2em;
   color: var(--main-darkgrey);
 }
 
 header h1 {
   text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+  nav li, nav h3, nav a {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 2560px) {
+  nav h3 {
+    width: 30%;
+    padding-left: 75px;
+    margin-top: 0;
+    float: left;
+  }
+
+  nav h1, hr, .hamburger {
+    display: none;
+  }
+
+  .nav-links {
+    width: 100%;
+  }
+
+  nav li {
+    width: 10%;
+    display: block;
+    float: left;
+  }
+
+  nav a {
+    width: 30%;
+    margin-left: 20%;
+    background-color: var(--main-darkgrey);
+    color: var(--main-white);
+    padding: 1% 2%;
+  }
 }
 
 /* BODY 1: MAIN CONTENT */
@@ -112,13 +160,6 @@ button {
   font-weight: bold;
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
-  text-decoration: none;
-}
-
 /* MAIN SECTION 3: COLLECTING INFO */
 .collect-info h1 {
   font-size: 4em;
@@ -138,4 +179,8 @@ a:active {
 /*******************************************/
 .hr-divider {
   display: none;
+}
+
+hr {
+  clear: both;
 }
